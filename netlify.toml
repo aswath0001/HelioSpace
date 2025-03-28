@@ -1,0 +1,8 @@
+[build]
+  publish = "src"  # Must match your folder name
+  functions = "netlify/functions"  # Only if using functions
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
