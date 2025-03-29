@@ -8,12 +8,12 @@ export default defineConfig({
     outDir: "../dist",
     assetsDir: "assets",
     rollupOptions: {
-      external: [], // ⚠️ REMOVE ["three"] here
+      external: [],
     },
   },
   resolve: {
     alias: {
-      three: "three", // ✅ Ensures Vite finds Three.js correctly
+      three: "three",
     },
   },
 });

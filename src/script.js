@@ -215,6 +215,7 @@ planetMeshes.forEach((planet,planetIndex) => {
    moon.rotation.y += planets [planetIndex].moons[moonIndex].speed
    moon.position.x = Math.sin(moon.rotation.y)*planets[planetIndex].moons[moonIndex].distance
    moon.position.z = Math.cos(moon.rotation.y)*planets[planetIndex].moons[moonIndex].distance
+   sun.rotation.y +=0.001
   })
 })
 
